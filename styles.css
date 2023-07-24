@@ -1,0 +1,119 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    margin: auto;
+
+}
+  
+ .hero{
+    background-image: url("images/pilipinas.jpg");
+    background-size: cover;
+    height: 345px;
+    width: 720px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+       }
+h1{
+    align-items: center;
+    color: #05686Eff;
+    font-size: 32px;
+    text-shadow: 2px 1px black;
+    background:#BDC4D5ff;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+    width: 300px;
+}
+
+h2 {
+    font-family: cursive;
+    color: #FBE2DEff;
+    font-size: 13px;
+    background: linear-gradient(#645C47ff, #4B8495ff);
+    padding: 10px 5px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.activity-title {
+    color: #05686Eff;
+    font-size: 24px;
+    text-shadow: 2px 1px black;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #05686Eff;
+    font-size: 16px;
+    text-align: center;
+}
+
+p {
+    color: #05686Eff;
+    font-size: 16px;
+}
+.activities-section {
+    width: 720px;
+    height: 400px;
+    margin: 0 auto; 
+}
+
+.activity {
+    width: 160px;
+    height: 55px;
+    padding: 20px;
+    margin: 15px 20 auto;
+    display:inline-flex;
+    flex-direction:column;
+    justify-content:start;
+    align-content:space-around;
+
+}
+
+.activity-img{
+    width: 100px;
+    height: 100px;
+    margin: 0 25px 25px 25px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.img-guide{
+    width: 100px;
+
+}
+
+.guide{
+    height: 720;
+    width: 345px;
+    margin: 10px auto 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #BDC4D5ff;
+    color: #05686Eff;
+    font-style: italic;
+    border-bottom: 6px solid  #048082ff;
+    border-radius: 10px;
+}
